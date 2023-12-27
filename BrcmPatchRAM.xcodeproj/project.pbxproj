@@ -1057,11 +1057,11 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BlueToolFixup;
+				MODULE_NAME = as.devicemanager.BlueToolFixup;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				MODULE_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BlueToolFixup;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BlueToolFixup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1085,11 +1085,11 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BlueToolFixup;
+				MODULE_NAME = as.devicemanager.BlueToolFixup;
 				MODULE_START = "$(PRODUCT_NAME)_kern_start";
 				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
 				MODULE_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BlueToolFixup;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BlueToolFixup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1111,8 +1111,8 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BrcmFirmwareStore;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BrcmFirmwareStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1133,8 +1133,8 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BrcmFirmwareStore;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BrcmFirmwareStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1155,8 +1155,8 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BrcmFirmwareStore;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BrcmFirmwareStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1174,8 +1174,8 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
-				PRODUCT_BUNDLE_IDENTIFIER = as.acidanthera.BrcmFirmwareStore;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
+				PRODUCT_BUNDLE_IDENTIFIER = as.devicemanager.BrcmFirmwareStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1276,10 +1276,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = BrcmPatchRAM_Start;
 				MODULE_STOP = BrcmPatchRAM_Stop;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1301,10 +1301,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = BrcmPatchRAM_Start;
 				MODULE_STOP = BrcmPatchRAM_Stop;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1327,10 +1327,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = 0;
 				MODULE_STOP = 0;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1352,10 +1352,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = 0;
 				MODULE_STOP = 0;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1464,10 +1464,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = BrcmPatchRAM_Start;
 				MODULE_STOP = BrcmPatchRAM_Stop;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BrcmPatchRAM2;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1489,10 +1489,10 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.BrcmPatchRAM;
+				MODULE_NAME = as.devicemanager.BrcmPatchRAM;
 				MODULE_START = BrcmPatchRAM_Start;
 				MODULE_STOP = BrcmPatchRAM_Stop;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BrcmPatchRAM2;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -1508,8 +1508,8 @@
 				INFOPLIST_FILE = "BrcmNonPatchRAM-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.injector.BrcmBluetoothInjector;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.injector.$(PRODUCT_NAME:rfc1034identifier)";
+				MODULE_NAME = as.devicemanager.injector.BrcmBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.injector.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1524,8 +1524,8 @@
 				INFOPLIST_FILE = "BrcmNonPatchRAM-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.injector.BrcmBluetoothInjector;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.injector.$(PRODUCT_NAME:rfc1034identifier)";
+				MODULE_NAME = as.devicemanager.injector.BrcmBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.injector.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1540,8 +1540,8 @@
 				INFOPLIST_FILE = "BrcmNonPatchRAM2-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.injector.BrcmBluetoothInjector;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.injector.$(PRODUCT_NAME:rfc1034identifier)";
+				MODULE_NAME = as.devicemanager.injector.BrcmBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.injector.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -1556,8 +1556,8 @@
 				INFOPLIST_FILE = "BrcmNonPatchRAM2-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MacKernelSDK/Library/x86_64";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULE_NAME = as.acidanthera.injector.BrcmBluetoothInjector;
-				PRODUCT_BUNDLE_IDENTIFIER = "as.acidanthera.injector.$(PRODUCT_NAME:rfc1034identifier)";
+				MODULE_NAME = as.devicemanager.injector.BrcmBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.devicemanager.injector.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};

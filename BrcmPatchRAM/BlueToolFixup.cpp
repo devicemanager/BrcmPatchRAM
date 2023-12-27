@@ -94,7 +94,7 @@ static const uint8_t kVendorCheckPatched[] =
 // Workaround for bugged chipset range check that
 // doesn't consider 0 "THIRD_PARTY_DONGLE" as valid.
 // This patch allows bluetooth to turn back on after the first power cycle.
-// See https://github.com/acidanthera/BrcmPatchRAM/pull/18 for more details.
+// See https://github.com/devicemanager/BrcmPatchRAM/pull/18 for more details.
 static const uint8_t kBadChipsetCheckOriginal[] =
 {
     0x81, 0xF9,              // cmp ecx

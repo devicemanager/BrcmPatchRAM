@@ -5,7 +5,7 @@
 	<key>BuildMachineOSBuild</key>
 	<string>20C69</string>
 	<key>CFBundleIdentifier</key>
-	<string>as.acidanthera.injector.BrcmBluetoothInjector</string>
+	<string>as.devicemanager.injector.BrcmBluetoothInjector</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -1,7 +1,7 @@
 BrcmPatchRAM
 ============
 
-[![Build Status](https://github.com/acidanthera/BrcmPatchRAM/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/BrcmPatchRAM/actions) [![Scan Status](https://scan.coverity.com/projects/22191/badge.svg?flat=1)](https://scan.coverity.com/projects/22191)
+[![Build Status](https://github.com/devicemanager/BrcmPatchRAM/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/BrcmPatchRAM/actions) [![Scan Status](https://scan.coverity.com/projects/22191/badge.svg?flat=1)](https://scan.coverity.com/projects/22191)
 
 #### 翻译语言
 
@@ -16,7 +16,7 @@ Broadcom Windows驱动程序将在每次启动时将固件上载到Broadcom蓝�
 
 ### 安装
 
-__请注意，如果您有Apple MacBook / iMac / Mac Pro等，请按照 [Mac instructions](https://github.com/acidanthera/BrcmPatchRAM/blob/master/README-Mac.md)__
+__请注意，如果您有Apple MacBook / iMac / Mac Pro等，请按照 [Mac instructions](https://github.com/devicemanager/BrcmPatchRAM/blob/master/README-Mac.md)__
 
 根据macOS版本安装`BrcmPatchRAM.kext`或`BrcmPatchRAM2.kext`或`BrcmPatchRAM3.kext`其中之一，决不要三者都安装。
 
@@ -166,7 +166,7 @@ IOCatalogue::addDrivers, IOCatalogue::removeDrivers and IOCatalogue::startMatchi
 
 ### BlueToolFixup.kext
 
-需要 macOS 12 或者更新的版本，在 macOS 12 中，Apple 已经将部分蓝牙堆栈从内核空间改为用户空间，更多详情请看 [acidanthera/bugtracker#1669](https://github.com/acidanthera/bugtracker/issues/1669)。
+需要 macOS 12 或者更新的版本，在 macOS 12 中，Apple 已经将部分蓝牙堆栈从内核空间改为用户空间，更多详情请看 [devicemanager/bugtracker#1669](https://github.com/devicemanager/bugtracker/issues/1669)。
 
 请不要在 macOS 12 或者更新的版本上将它和 `BrcmBluetoothInjector` 一起使用。
 
@@ -269,9 +269,9 @@ Windows软件包中的所有固件都存在于kext中，并自动与其供应商
 上传设备固件后，设备控件将移交给Apple的`BroadcomBluetoothHostControllerUSBTransport`。
 这意味着，出于所有意图和目的，您的设备将是macOS上的本地设备，并且完全支持所有功能。
 
-可以通过引导加载程序或通过BrcmPatchRAM与Continuity Activation Patch结合使用 [BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContinuityFixup), 或通过dokterdok的脚本 [Continuity-Activation-Tool](https://github.com/dokterdok/Continuity-Activation-Tool)  
+可以通过引导加载程序或通过BrcmPatchRAM与Continuity Activation Patch结合使用 [BT4LEContinuityFixup](https://github.com/devicemanager/BT4LEContinuityFixup), 或通过dokterdok的脚本 [Continuity-Activation-Tool](https://github.com/dokterdok/Continuity-Activation-Tool)  
 
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) 用户可以使用`config.plist`中的quirk参数 `ExtendBTFeatureFlags`进行修补。
+[OpenCore](https://github.com/devicemanager/OpenCorePkg) 用户可以使用`config.plist`中的quirk参数 `ExtendBTFeatureFlags`进行修补。
 
 ### 故障排除
 

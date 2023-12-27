@@ -1,7 +1,7 @@
 BrcmPatchRAM
 ============
 
-[![Build Status](https://github.com/acidanthera/BrcmPatchRAM/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/BrcmPatchRAM/actions) [![Scan Status](https://scan.coverity.com/projects/22191/badge.svg?flat=1)](https://scan.coverity.com/projects/22191)
+[![Build Status](https://github.com/devicemanager/BrcmPatchRAM/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/BrcmPatchRAM/actions) [![Scan Status](https://scan.coverity.com/projects/22191/badge.svg?flat=1)](https://scan.coverity.com/projects/22191)
 
 ### Translate Language
 
@@ -16,7 +16,7 @@ Note that the original Apple Broadcom bluetooth devices are not RAMUSB devices, 
 
 ### Installation
 
-__Note if you have an Apple MacBook/iMac/Mac Pro etc, follow the [Mac instructions](https://github.com/acidanthera/BrcmPatchRAM/blob/master/README-Mac.md)__
+__Note if you have an Apple MacBook/iMac/Mac Pro etc, follow the [Mac instructions](https://github.com/devicemanager/BrcmPatchRAM/blob/master/README-Mac.md)__
 
 
 Install one of BrcmPatchRAM.kext or BrcmPatchRAM2.kext or BrcmPatchRAM3.kext depending on macOS version, never both.
@@ -170,7 +170,7 @@ If yours is not present, edit the Info.plist as needed.
 
 ### BlueToolFixup.kext
   
-Required for macOS 12 or newer, as in macOS 12 Apple has changed parts of the Bluetooth stack from kernel-space to user-space as detailed in [here](https://github.com/acidanthera/bugtracker/issues/1669) and [here](https://github.com/acidanthera/BrcmPatchRAM/pull/12). Requires Lilu 1.5.4+  
+Required for macOS 12 or newer, as in macOS 12 Apple has changed parts of the Bluetooth stack from kernel-space to user-space as detailed in [here](https://github.com/devicemanager/bugtracker/issues/1669) and [here](https://github.com/devicemanager/BrcmPatchRAM/pull/12). Requires Lilu 1.5.4+  
   
 Do not use it with BrcmBluetoothInjector for macOS 12 or newer.
 
@@ -277,7 +277,7 @@ BrcmPatchRAM consists of 2 parts:
 After the device firmware is uploaded, the device control is handed over to Apple's BroadcomBluetoothHostControllerUSBTransport.
 This means that for all intents and purposes your device will be native on macOS and support all functionalities fully.
 
-It is possible to use the Continuity Activation Patch in combination with BrcmPatchRAM through [BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContinuityFixup), or through dokterdok's script [Continuity-Activation-Tool](https://github.com/dokterdok/Continuity-Activation-Tool), or through [OpenCore](https://github.com/acidanthera/OpenCorePkg) quirk `ExtendBTFeatureFlags`.  
+It is possible to use the Continuity Activation Patch in combination with BrcmPatchRAM through [BT4LEContinuityFixup](https://github.com/devicemanager/BT4LEContinuityFixup), or through dokterdok's script [Continuity-Activation-Tool](https://github.com/dokterdok/Continuity-Activation-Tool), or through [OpenCore](https://github.com/devicemanager/OpenCorePkg) quirk `ExtendBTFeatureFlags`.  
 
 
 ### Troubleshooting
